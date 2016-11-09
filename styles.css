@@ -1,0 +1,47 @@
+#postsContainer {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 40%;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.31);
+    box-shadow: 0 0 10px;
+
+}
+
+#blogPosts {
+    position: relative;
+    overflow: scroll;
+    width: 80%;
+    height: 35em;
+    padding: 10%;
+}
+
+#newPostContainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 25em;
+    background-color: rgba(255, 255, 255, 0.31);
+    box-shadow: 0 0 10px;
+}
+
+#newPost {
+    position: relative;
+    width: 80%;
+    padding-right: 0;
+    padding-left: 20%;
+}
+
+body {
+    font-family: "DIN Alternate";
+    max-width: 100%;
+}
+
+
+input, textarea {
+    background-color: #ffffff;
+}
